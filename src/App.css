@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,18 +11,15 @@
 }
 
 :root {
-  --color-bg: #202020;
-  --color-bg-variant: #303030;
-  --color-primary: rgb(228, 252, 91);
-  --color-primary-variant: rgb(228, 252, 91, 0.4);
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-primary-orange: #ff7d1a;
+  --color-primary-paleorange: #ffede0;
 
-  --transition: all 400ms ease;
-
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
+  --color-neutral-dark-blue: #1d2025;
+  --color-neutral-dark-gray-blue: #68707d;
+  --color-neutral-gray-blue: #b6bcc8;
+  --color-neutral-light-gray-blue: #f7f8fd;
+  --color-neutral-white: #ffffff;
+  --color-neutral-black: #000000;
 }
 
 html {
@@ -32,8 +31,6 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  color: var(--color-white);
-  line-height: 1.7;
-  background-color: var(--color-bg);
+  background-color: var(--color-neutral-white);
+  font-family: 'Kumbh Sans', sans-serif;
 }
