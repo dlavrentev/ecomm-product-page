@@ -1,9 +1,39 @@
 .carussel-container {
     height: 300px;
     width: 100vw;
+    margin: 0 auto;
+    position: relative;
 }
 
-.image-1 {
-    width: 100%;
+.image {
     height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
+
+.previousArrow, .nextArrow {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--color-neutral-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    
+    z-index: 1;
+}
+
+.previousArrow {
+    left: 1rem;
+}
+
+.nextArrow {
+    right: 1rem;  
+}
+
+
