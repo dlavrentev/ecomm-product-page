@@ -1,6 +1,6 @@
 .description-container {
   margin: 0 auto;
-  width: 90%;
+  width: 86%;
 }
 
 /* info container styling  */
@@ -42,6 +42,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 24px;
 }
 
 .price-container-left {
@@ -74,4 +75,16 @@
   line-height: 26px;
   text-decoration-line: line-through;
   color: #b6bcc8;
+}
+
+/* add container styling  */
+
+.add-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.amount {
+    height: 56px;
+    background-color: var(--color-neutral-light-gray-blue);
 }

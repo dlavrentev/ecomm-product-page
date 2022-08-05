@@ -22,7 +22,10 @@ const Description = () => {
       </div>
 
       <div className="add-container">
-        <div className="amount"></div>
+        <div className="amount">
+            <img src="" alt="" />
+            <img src="" alt="" />
+        </div>
         <button className="btn-cart">Add to cart</button>
       </div>
     </div>
