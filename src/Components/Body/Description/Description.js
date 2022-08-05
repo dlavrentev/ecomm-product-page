@@ -14,8 +14,10 @@ const Description = () => {
         </p>
       </div>
       <div className="price-container">
-        <div className="atm">$125.00</div>
-        <button className="discount">50%</button>
+        <div className="price-container-left">
+          <div className="atm">$125.00</div>
+          <button className="discount">50%</button>
+        </div>
         <div className="previous">$250.00</div>
       </div>
 

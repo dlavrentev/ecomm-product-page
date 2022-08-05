@@ -1,5 +1,6 @@
 .description-container {
-    
+    margin: 0 auto;
+    width: 90%;
 }
 
 /* info container styling  */
@@ -7,8 +8,6 @@
 .info-container {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  width: 90%;
 }
 
 .info-container p {
@@ -21,25 +20,25 @@
   line-height: 15px;
   letter-spacing: 1.84615px;
   text-transform: uppercase;
-  color: #ff7e1b;
+  color: var(--color-primary-orange)
 }
 
 .model-p {
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
-  color: #1d2026;
+  color: var(--color-neutral-black);
 }
 .text-p {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #69707d;
+  color: var(--color-neutral-dark-gray-blue);
 }
 
 /* price container styling  */
 
 .price-container {
     display: flex;
-
+    justify-content: space-between;
 }
