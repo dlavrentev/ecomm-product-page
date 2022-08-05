@@ -13,8 +13,12 @@ const Description = () => {
           the weather can offer.
         </p>
       </div>
-      <div className="price"></div>
-      
+      <div className="price">
+        <div className="atm"></div>
+        <button className="discount"></button>
+        <div className="previous"></div>
+      </div>
+
       <div className="add"></div>
     </div>
   );
