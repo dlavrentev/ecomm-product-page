@@ -1,0 +1,45 @@
+.description-container {
+    
+}
+
+/* info container styling  */
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.info-container p {
+    margin-top: 20px;
+}
+
+.company-p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1.84615px;
+  text-transform: uppercase;
+  color: #ff7e1b;
+}
+
+.model-p {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #1d2026;
+}
+.text-p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #69707d;
+}
+
+/* price container styling  */
+
+.price-container {
+    display: flex;
+
+}
