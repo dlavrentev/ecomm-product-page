@@ -1,5 +1,8 @@
 import React from "react";
 import "./Description.css";
+import Minus from './../../../Images/icon-minus.svg'
+import Plus from './../../../Images/icon-plus.svg'
+import Cart from './../../../Images/icon-cart.svg'
 
 const Description = () => {
   return (
@@ -23,10 +26,14 @@ const Description = () => {
 
       <div className="add-container">
         <div className="amount">
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img className="operator minus" src={Minus} alt="minus" />
+            <p>0</p>
+            <img className="operator plus" src={Plus} alt="plus" />
         </div>
-        <button className="btn-cart">Add to cart</button>
+        <button className="btn-cart">
+            <img src={Cart} alt="Cart" />
+            <p>Add to cart</p>
+        </button>
       </div>
     </div>
   );

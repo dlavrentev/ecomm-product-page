@@ -80,11 +80,36 @@
 /* add container styling  */
 
 .add-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .amount {
-    height: 56px;
-    background-color: var(--color-neutral-light-gray-blue);
+  height: 56px;
+  background-color: var(--color-neutral-light-gray-blue);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+}
+
+.amount p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #1d2026;
+}
+
+.btn-cart {
+  height: 56px;
+  background-color: var(--color-primary-orange);
+  border-radius: 10px;
+  color: var(--color-neutral-white);
+}
+
+.btn-cart img {
+    
 }
