@@ -2,7 +2,7 @@ import React from "react";
 import "./Description.css";
 import Minus from './../../../Images/icon-minus.svg'
 import Plus from './../../../Images/icon-plus.svg'
-import Cart from './../../../Images/icon-cart.svg'
+import Cart from './../../../Images/icon-cart-white.svg'
 
 const Description = () => {
   return (
