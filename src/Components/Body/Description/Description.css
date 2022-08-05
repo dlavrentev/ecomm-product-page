@@ -1,6 +1,6 @@
 .description-container {
-    margin: 0 auto;
-    width: 90%;
+  margin: 0 auto;
+  width: 90%;
 }
 
 /* info container styling  */
@@ -11,7 +11,7 @@
 }
 
 .info-container p {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .company-p {
@@ -20,7 +20,7 @@
   line-height: 15px;
   letter-spacing: 1.84615px;
   text-transform: uppercase;
-  color: var(--color-primary-orange)
+  color: var(--color-primary-orange);
 }
 
 .model-p {
@@ -39,6 +39,39 @@
 /* price container styling  */
 
 .price-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-container-left {
+  display: flex;
+  align-items: center;
+}
+
+.atm {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: var(--color-neutral-black);
+}
+
+.discount {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-primary-orange);
+  background-color: var(--color-primary-paleorange);
+  height: 27px;
+  width: 51px;
+  border-radius: 6px;
+  margin-left: 16px;
+}
+
+.previous {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration-line: line-through;
+  color: #b6bcc8;
 }
