@@ -10,6 +10,7 @@
     width: 100%;
     background-size: cover;
     background-position: center;
+    transition: ease 0.4s;
 }
 
 .previousArrow, .nextArrow {
