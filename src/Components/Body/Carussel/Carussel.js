@@ -30,11 +30,11 @@ const Carussel = ({ slides }) => {
         className="image"
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
       ></div>
-      <div>
+      {/* <div>
         {slides.map((slide, slideIndex) => (
           <div key={slideIndex}></div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
