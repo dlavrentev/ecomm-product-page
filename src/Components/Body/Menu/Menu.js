@@ -1,17 +1,25 @@
-import React from 'react'
-import Close from "../../../Images/icon-close.svg"
+import React, {useState} from "react";
+import Close from "../../../Images/icon-close.svg";
+import "../Menu/Menu.css";
 
 const Menu = () => {
-  return (
-    <div>
-      <img src={Close} alt="Close" />
-      <p>Collections</p>
-      <p>Men</p>
-      <p>Woman</p>
-      <p>About</p>
-      <p>Contact</p>
-    </div>
-  )
-}
 
-export default Menu
+    const closeBtn = () => {
+         
+    }
+
+  return (
+    <div className="menu-container">
+      <img src={Close} alt="Close" onClick={closeBtn} />
+      <div>
+        <p>Collections</p>
+        <p>Men</p>
+        <p>Woman</p>
+        <p>About</p>
+        <p>Contact</p>
+      </div>
+    </div>
+  );
+};
+
+export default Menu;
