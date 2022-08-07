@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "./../../Images/icon-menu.svg";
+import Burger from "./../../Images/icon-menu.svg";
 import Logo from "../../Images/logo.svg";
 import Cart from "../../Images/icon-cart.svg";
 import Profile from "../../Images/image-avatar.png";
@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="group-left">
-        <img className="menu" src={Menu} alt="Menu" />
+        <img className="menu" src={Burger} alt="Menu" />
         <img className="logo" src={Logo} alt="Logo" />
       </div>
       <div className="group-right">

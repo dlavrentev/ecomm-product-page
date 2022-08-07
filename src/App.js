@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Carussel from './Components/Body/Carussel/Carussel';
 import Description from './Components/Body/Description/Description';
-
+import Menu from './Components/Body/Menu/Menu';
 
 function App() {
   const slides = [
@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Menu />
       <Carussel slides={slides} />
       <Description />
     </div>
