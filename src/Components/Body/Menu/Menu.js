@@ -3,6 +3,7 @@ import Close from "../../../Images/icon-close.svg";
 import "../Menu/Menu.css";
 
 const Menu = () => {
+    const [showMenu, setShowMenu] = useState(true)
 
     const closeBtn = () => {
          
