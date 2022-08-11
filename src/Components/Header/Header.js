@@ -4,6 +4,9 @@ import Burger from "./../../Images/icon-menu.svg";
 import Logo from "../../Images/logo.svg";
 import Cart from "../../Images/icon-cart.svg";
 import Profile from "../../Images/image-avatar.png";
+import Delete from "../../Images/icon-delete.svg";
+import Small from "../../Images/image-product-1-thumbnail.jpg";
+
 import "./Header.css";
 
 const Header = () => {
@@ -51,12 +54,12 @@ const Header = () => {
           </div>
           <div className="cart-basket">
             <div>
-              <img src="" alt="Product" />
+              <img src={Small} height="50px" alt="Product" />
               <div>
-                <p></p>
-                <p></p>
+                <p>Fall Limited Edition Sneakers</p>
+                <p>$125.00 x3 $375.00</p>
               </div>
-              <img src="" alt="Product" />
+              <img src={Delete} alt="Product" />
             </div>
             <button>Checkout</button>
           </div>
