@@ -18,13 +18,16 @@ const Header = () => {
     setShowMenu(true);
   };
 
-  const closeCartBtn = () => {
-    setShowCart(false);
+  const toggleCartBtn = () => {
+    if (showCart === true) {
+      setShowCart(false);
+    } else {
+      setShowCart(true);
+    }
+    
   };
 
-  const openCartBtn = () => {
-    setShowCart(true);
-  };
+  
 
   return (
     <div className="Header">
@@ -44,7 +47,8 @@ const Header = () => {
         </div>
       ) : null}
 
-      <div className="cart-container">
+      {showCart ? (
+        <div className="cart-container">
         <div className="cart-heading">
           <p>Cart</p>
         </div>
@@ -58,6 +62,7 @@ const Header = () => {
         </div>
         <button>Checkout</button>
       </div>
+      ) : null}
 
       <div className="header-container">
         <div className="group-left">
@@ -65,7 +70,7 @@ const Header = () => {
           <img className="logo" src={Logo} alt="Logo" />
         </div>
         <div className="group-right">
-          <img className="cart" src={Cart} alt="Cart" />
+          <img className="cart" src={Cart} onClick={toggleCartBtn} alt="Cart" />
           <img className="profile" src={Profile} alt="Profile" height={24} />
         </div>
       </div>
