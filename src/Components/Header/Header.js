@@ -24,10 +24,7 @@ const Header = () => {
     } else {
       setShowCart(true);
     }
-    
   };
-
-  
 
   return (
     <div className="Header">
@@ -49,19 +46,21 @@ const Header = () => {
 
       {showCart ? (
         <div className="cart-container">
-        <div className="cart-heading">
-          <p>Cart</p>
-        </div>
-        <div className="cart-basket">
-          <img src="" alt="Product" />
-          <div>
-            <p></p>
-            <p></p>
+          <div className="cart-heading">
+            <p>Cart</p>
           </div>
-          <img src="" alt="Product" />
+          <div className="cart-basket">
+            <div>
+              <img src="" alt="Product" />
+              <div>
+                <p></p>
+                <p></p>
+              </div>
+              <img src="" alt="Product" />
+            </div>
+            <button>Checkout</button>
+          </div>
         </div>
-        <button>Checkout</button>
-      </div>
       ) : null}
 
       <div className="header-container">
