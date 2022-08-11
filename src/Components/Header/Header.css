@@ -64,12 +64,22 @@
   grid-template-rows: 1fr 3fr;
 }
 
-.cart-heading p {
+.cart-heading div {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  width: 87%;
+  margin: 0 auto;
+  margin-top: 24px;
 }
 
 .cart-heading {
   border-bottom: solid 1px #E4E9F2;
 }
+
+.cart-basket {
+  width: 87%;
+  margin: 0 auto;
+}
+
+.cart-basket button {}

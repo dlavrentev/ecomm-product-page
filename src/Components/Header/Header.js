@@ -47,7 +47,7 @@ const Header = () => {
       {showCart ? (
         <div className="cart-container">
           <div className="cart-heading">
-            <p>Cart</p>
+            <div>Cart</div>
           </div>
           <div className="cart-basket">
             <div>
