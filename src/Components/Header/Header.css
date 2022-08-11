@@ -78,8 +78,22 @@
 }
 
 .cart-basket {
+  display: flex;
+  flex-direction: column;
   width: 87%;
   margin: 0 auto;
+  justify-content: center;
+}
+
+.cart-basket-empty {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #69707d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cart-basket button {
@@ -91,11 +105,12 @@
   font-size: 16px;
   line-height: 20px;
   color: var(--color-neutral-white);
+  margin-top: 24px;
 }
 
 .cart-basket div {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 52px;
 }

@@ -12,6 +12,7 @@ import "./Header.css";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [showCart, setShowCart] = useState(false);
+  const [emptyCart, setEmptyCart] = useState(false);
 
   const closeMenuBtn = () => {
     setShowMenu(false);
@@ -52,9 +53,15 @@ const Header = () => {
           <div className="cart-heading">
             <div>Cart</div>
           </div>
-          <div className="cart-basket">
+          {emptyCart ? (
+            <div className="cart-basket">
             <div>
-              <img src={Small} height="50px" alt="Product" />
+              <img
+                src={Small}
+                height="50px"
+                style={{ borderRadius: "4px" }}
+                alt="Product"
+              />
               <div>
                 <p>Fall Limited Edition Sneakers</p>
                 <p>$125.00 x3 $375.00</p>
@@ -63,6 +70,10 @@ const Header = () => {
             </div>
             <button>Checkout</button>
           </div>
+          ) : <div className="cart-basket-empty">
+            Your cart is empty.
+          </div>}
+          
         </div>
       ) : null}
 
