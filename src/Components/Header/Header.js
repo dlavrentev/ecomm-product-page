@@ -8,37 +8,60 @@ import "./Header.css";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [showCart, setShowCart] = useState(false);
 
-  const closeBtn = () => {
+  const closeMenuBtn = () => {
     setShowMenu(false);
   };
 
-  const openBtn = () => {
+  const openMenuBtn = () => {
     setShowMenu(true);
+  };
+
+  const closeCartBtn = () => {
+    setShowCart(false);
+  };
+
+  const openCartBtn = () => {
+    setShowCart(true);
   };
 
   return (
     <div className="Header">
       {showMenu ? (
         <div className="menu-overlay">
-        <div className="menu-container">
-          <img src={Close} alt="Close" onClick={closeBtn} />
-          <div>
-            <p>Collections</p>
-            <p>Men</p>
-            <p>Woman</p>
-            <p>About</p>
-            <p>Contact</p>
+          <div className="menu-container">
+            <img src={Close} alt="Close" onClick={closeMenuBtn} />
+            <div>
+              <p>Collections</p>
+              <p>Men</p>
+              <p>Woman</p>
+              <p>About</p>
+              <p>Contact</p>
+            </div>
           </div>
+          <div className="opacity"></div>
         </div>
-        <div className="opacity"></div>
-        </div>
-        
       ) : null}
+
+      <div className="cart-container">
+        <div className="cart-heading">
+          <p>Cart</p>
+        </div>
+        <div className="cart-basket">
+          <img src="" alt="Product" />
+          <div>
+            <p></p>
+            <p></p>
+          </div>
+          <img src="" alt="Product" />
+        </div>
+        <button>Checkout</button>
+      </div>
 
       <div className="header-container">
         <div className="group-left">
-          <img className="menu" src={Burger} onClick={openBtn} alt="Menu" />
+          <img className="menu" src={Burger} onClick={openMenuBtn} alt="Menu" />
           <img className="logo" src={Logo} alt="Logo" />
         </div>
         <div className="group-right">
