@@ -32,7 +32,21 @@ const Header = () => {
   };
 
   return (
+    
     <div className="Header">
+    <MediaQuery minWidth={701}>
+    <div className="header-container">
+        <div className="group-left">
+          <img className="menu" src={Burger} onClick={openMenuBtn} alt="Menu" />
+          <img className="logo" src={Logo} alt="Logo" />
+        </div>
+        <div className="group-right">
+          <img className="cart" src={Cart} onClick={toggleCartBtn} alt="Cart" />
+          <img className="profile" src={Profile} alt="Profile" height={24} />
+        </div>
+      </div>
+    </MediaQuery>
+    <MediaQuery maxWidth={700}>
       {showMenu ? (
         <div className="menu-overlay">
           <div className="menu-container">
@@ -88,7 +102,9 @@ const Header = () => {
           <img className="profile" src={Profile} alt="Profile" height={24} />
         </div>
       </div>
+      </MediaQuery>
     </div>
+    
   );
 };
 
