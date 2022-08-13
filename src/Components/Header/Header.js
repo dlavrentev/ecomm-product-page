@@ -37,8 +37,14 @@ const Header = () => {
     <MediaQuery minWidth={701}>
     <div className="header-container">
         <div className="group-left">
-          <img className="menu" src={Burger} onClick={openMenuBtn} alt="Menu" />
           <img className="logo" src={Logo} alt="Logo" />
+          <div>
+            <p>Collection</p>
+            <p>Men</p>
+            <p>Women</p>
+            <p>About</p>
+            <p>Contact</p>
+          </div>
         </div>
         <div className="group-right">
           <img className="cart" src={Cart} onClick={toggleCartBtn} alt="Cart" />
