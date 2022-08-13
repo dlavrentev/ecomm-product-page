@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import MediaQuery from 'react-responsive';
 import Close from "../../Images/icon-close.svg";
 import Burger from "./../../Images/icon-menu.svg";
 import Logo from "../../Images/logo.svg";
