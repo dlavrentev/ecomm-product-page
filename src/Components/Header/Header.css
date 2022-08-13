@@ -123,14 +123,20 @@
   padding: 2px 0;
 }
 
-
+/* desktop media queries  */
 
 @media screen and (min-width: 701px) {
-    .group-left {
-      display: flex;
-    }
-    
-    .group-left div {
-      display: flex;
-    }
+  .group-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .group-left div {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #69707d;
+  }
 }
