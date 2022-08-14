@@ -162,5 +162,7 @@
     align-items: center;
   }
 
-  .profile 
+  .profile {
+    margin-left: 46px;
+  }
 }
