@@ -48,7 +48,7 @@ const Header = () => {
         </div>
         <div className="group-right">
           <img className="cart" src={Cart} onClick={toggleCartBtn} alt="Cart" />
-          <img className="profile" src={Profile} alt="Profile" height={24} />
+          <img className="profile" src={Profile} alt="Profile" height={50} />
         </div>
       </div>
     </MediaQuery>

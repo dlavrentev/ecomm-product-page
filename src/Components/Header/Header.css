@@ -131,6 +131,7 @@
     margin: 0 auto;
     border-bottom: solid 1px #E4E9F2;
     justify-content: space-between;
+    height: 12vh;
   }
 
   .group-left {
@@ -146,8 +147,20 @@
     line-height: 26px;
     color: #69707d;
   }
+  
+  .group-left img {
+    margin-right: 56.5px;
+  }
 
   .group-left div p {
     margin-right: 32px;
   }
+
+  .group-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile 
 }
