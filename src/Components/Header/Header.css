@@ -146,4 +146,8 @@
     line-height: 26px;
     color: #69707d;
   }
+
+  .group-left div p {
+    margin-right: 32px;
+  }
 }
