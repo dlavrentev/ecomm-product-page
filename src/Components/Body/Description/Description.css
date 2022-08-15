@@ -133,6 +133,7 @@
   .description-container {
     width: 40%;
     height: 47.33%;
+    margin-top: 17%;
   }
 
   .company-p {
@@ -168,5 +169,10 @@
   .previous {
     margin-top: 10px;
   }
+
+ 
+
   
 }
+
+

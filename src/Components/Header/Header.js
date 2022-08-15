@@ -39,7 +39,7 @@ const Header = () => {
         <div className="group-left">
           <img className="logo" src={Logo} alt="Logo" />
           <div>
-            <p>Collection</p>
+            <p>Collections</p>
             <p>Men</p>
             <p>Women</p>
             <p>About</p>

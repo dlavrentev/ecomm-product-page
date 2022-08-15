@@ -1,8 +1,9 @@
 .carussel-container {
     display: flex;
     flex-direction: column;
-    width: 30.903%;
+    width: 39.6%;
     height: 63%;
+    margin-top: 10%;
 }
 
 .main-img {
