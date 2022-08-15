@@ -6,6 +6,7 @@ import Thumb3 from './../../../Images/image-product-3-thumbnail.jpg'
 import Thumb4 from './../../../Images/image-product-4-thumbnail.jpg'
 import './../Carussel/CarusselDesktop.css'
 
+
 const CarusselDesktop = () => {
   return (
     <div className='carussel-container'>
