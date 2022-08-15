@@ -16,11 +16,14 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div className='desktop-body'> 
       <CarusselDesktop />
+      <Description />
+      </div>
       <MediaQuery maxWidth={700}>
       <Carussel slides={slides} />
       </MediaQuery>
-      <Description />
+      
     </div>
   );
 }

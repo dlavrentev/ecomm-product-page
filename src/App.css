@@ -34,3 +34,8 @@ body {
   background-color: var(--color-neutral-white);
   font-family: 'Kumbh Sans', sans-serif;
 }
+
+.desktop-body {
+  display: flex;
+  justify-content: center;
+}
