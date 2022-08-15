@@ -2,6 +2,8 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Carussel from './Components/Body/Carussel/Carussel';
 import Description from './Components/Body/Description/Description';
+import MediaQuery from 'react-responsive';
+import CarusselDesktop from './Components/Body/Carussel/CarusselDesktop';
 
 
 function App() {
@@ -14,7 +16,10 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <CarusselDesktop />
+      <MediaQuery maxWidth={700}>
       <Carussel slides={slides} />
+      </MediaQuery>
       <Description />
     </div>
   );

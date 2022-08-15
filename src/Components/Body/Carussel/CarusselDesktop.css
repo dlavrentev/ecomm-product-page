@@ -1,0 +1,9 @@
+.carussel-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.carussel-container img {
+    height: 565px;
+    width: ;
+}
