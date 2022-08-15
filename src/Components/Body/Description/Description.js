@@ -3,6 +3,7 @@ import "./Description.css";
 import Minus from './../../../Images/icon-minus.svg'
 import Plus from './../../../Images/icon-plus.svg'
 import Cart from './../../../Images/icon-cart-white.svg'
+import MediaQuery from 'react-responsive';
 
 const Description = () => {
   return (
@@ -21,9 +22,9 @@ const Description = () => {
           <div className="atm">$125.00</div>
           <button className="discount">50%</button>
         </div>
-        <div className="previous">$250.00</div>
+        <MediaQuery maxWidth={700}><div className="previous">$250.00</div></MediaQuery>
       </div>
-
+      <MediaQuery minWidth={701}><div className="previous">$250.00</div></MediaQuery>
       <div className="add-container">
         <div className="amount">
             <img className="operator minus" src={Minus} alt="minus" />
