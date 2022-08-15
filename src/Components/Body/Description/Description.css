@@ -131,8 +131,8 @@
 
 @media screen and (min-width: 700px) {
   .description-container {
-    width: 30%;
-    margin-top: 152px;
+    width: 40%;
+    height: 47.33%;
   }
 
   .company-p {
@@ -144,7 +144,6 @@
   .model-p {
     font-size: 44px;
     line-height: 48px;
-    
   }
   .text-p {
     font-size: 16px;
@@ -154,14 +153,12 @@
   .add-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
   }
 
   .btn-cart {
     margin-top: 0;
-    width: 65%;
-    margin-left: 16px;
+    width: 61.123%;
   }
 
   .amount {
@@ -171,4 +168,5 @@
   .previous {
     margin-top: 10px;
   }
+  
 }

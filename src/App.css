@@ -38,5 +38,6 @@ body {
 .desktop-body {
   display: flex;
   flex-direction: row;
-  
+  width: 78%;
+  margin: 0 auto;
 }
