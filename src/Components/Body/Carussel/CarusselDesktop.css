@@ -1,9 +1,25 @@
 .carussel-container {
     display: flex;
     flex-direction: column;
+    height: 565px;
+    width: 445px;
+    margin-top: 90px;
 }
 
-.carussel-container img {
-    height: 565px;
-    width: ;
+.main-img {
+    height: 445px;
+    width: 445px;
+    border-radius: 15px;
+}
+
+.carussel-container div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.carussel-container div img {
+    height: 88px;
+    width: 88px;
+    border-radius: 10px;
 }
