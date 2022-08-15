@@ -1,14 +1,14 @@
 .carussel-container {
     display: flex;
     flex-direction: column;
-    height: 565px;
-    width: 445px;
+    width: 30.903%;
+    height: 63%;
     margin-top: 90px;
 }
 
 .main-img {
-    height: 445px;
-    width: 445px;
+    height: 100%;
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -16,10 +16,10 @@
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
+    width: 100%;
 }
 
 .carussel-container div img {
-    height: 88px;
-    width: 88px;
+    width: 19.714%;
     border-radius: 10px;
 }
